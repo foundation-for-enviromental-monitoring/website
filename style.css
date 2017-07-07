@@ -1,0 +1,10 @@
+body {
+  font-family: Helvetica, Sans-Serif;
+  font-size: 12pt;
+  color: #888;
+}
+#main {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #888;
+}
