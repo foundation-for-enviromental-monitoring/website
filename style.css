@@ -1,10 +1,145 @@
 body {
-  font-family: Helvetica, Sans-Serif;
-  font-size: 12pt;
-  color: #888;
+  font-family: Open Sans, Sans-Serif;
+  font-size: 11pt;
+  font-weight: lighter;
+  color: #444;
+  background-color: #fff;
 }
+
+a:link {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #444;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #444;
+  text-decoration: underline;
+}
+
+#header {
+  background: #a84303 url(images/header_background.jpg) no-repeat;
+  overflow: hidden;
+  border-radius: 30px 30px 0 0;
+}
+
 #main {
   margin: 20px;
-  padding: 20px;
-  border: 1px solid #888;
+  background-color: #fff;
+  max-width: 1600px;
+}
+
+#header h1 {
+  font-weight: lighter;
+  font-size: 36px;
+  vertical-align: middle;
+  margin: 30px 10px 10px 20px;
+  color: #fff;
+}
+
+#navigation {
+  background-color: #000;
+  margin-top: 0;
+  font-weight: normal;
+}
+
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+
+#navigation li {
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+  white-space: nowrap;
+}
+
+#navigation a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navigation a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#navigation a:active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
+  text-decoration: none;
+}
+
+#hero {
+  background-color: #444;
+  width: 100%;
+  overflow: hidden;
+}
+
+#hero img {
+  width: 100%;
+}
+
+#content h1 {
+  border-bottom: 1px dotted #444;
+}
+
+#about {
+  background-image: url("images/about_background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+
+#water_and_soil_test_kits {
+  background-image: url("images/water_and_soil_test_kits.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 40px; 
+}
+
+#team {
+  background-image: url("images/team_background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 40px; 
+}
+
+#partners {
+  background-image: url("images/partners_background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 40px; 
+}
+
+#contact {
+  background-image: url("images/contact_background.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 40px; 
+}
+
+#footer {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding: 20px 0;
 }
