@@ -138,6 +138,13 @@ h1 a:link, h1 a:visited, h1 a:hover, h1 a:active {
   padding-bottom: 40px; 
 }
 
+.profile .profile_name {
+  font-weight: bold;
+}
+
+.profile .profile_body {
+}
+
 #footer {
   margin-top: 20px;
   border-top: 1px solid #444;
