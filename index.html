@@ -1,124 +1,151 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Foundation for Environmental Monitoring</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-      $(function(){
-        $('.profile_body').hide();
-        $('.profile_name').each(function(index, value){
-          $(value).contents().wrap('<a href="#">');
+        $(function() {
+            $('.profile_body').hide();
+            $('.profile_name').each(function(index, value) {
+                $(value).contents().wrap('<a href="#">');
+            });
+            $('.profile_name a').click(function(e) {
+                $(this).parent().parent().children('.profile_body').toggle();
+                return false;
+            });
         });
-        $('.profile_name a').click(function(e){
-          $(this).parent().parent().children('.profile_body').toggle();
-          return false;
-        });
-      });
     </script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-102280127-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-102280127-1', 'auto');
+        ga('send', 'pageview');
     </script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div id="main">
-      <div id="header">
-        <h1>Foundation for Environmental Monitoring</h1>
-      </div>
-      <div id="navigation">
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#water_and_soil_test_kits">Water and Soil Test Kits</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-      <div id="content">
-        <div id="hero">
-          <img src="images/caddisfly_main.jpg" alt="Caddisfly - A field test kit for drinking water and soil based on a smartphone">
+        <div id="header">
+            <h1>Foundation for Environmental Monitoring</h1>
         </div>
-        <div id="about">
-          <h1><a name="about">About</a></h1>
-          <p><a href="http://ffem.io">Foundation for Environmental Monitoring (FFEM)</a>, is a nonprofit (Section 8) company based in Bangalore, India.</p>
-          <p>We create products that are <strong>Open Source</strong>, <strong>Inexpensive</strong>, and <strong>Designed for field use</strong>. Our products are usually integrated with apps that post test results to online databases. We encourage results being posted as <strong>Open Data</strong>.</p>
-          <p>Elements of our work begain 2012 as <a href="http://caddisfly.ternup.com">Ternup Research Labs</a>. In 2014, our team merged with <a href="http://akvo.org">Akvo</a>. FFEM was set up as a spinoff in June 2017. This <a href="http://akvo.org/blog/akvo-spins-off-environmental-sensor-organisation-ffem/">post</a> explains the context and future directions.</p>
+        <div id="navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#water_and_soil_test_kits">Water and Soil Test Kits</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div id="water_and_soil_test_kits">
-          <h1><a name="water_and_soil_test_kits">FFEM Caddisfly: Water and Soil Test Kits</a></h1>
-          <h2>Water tests</h2>
-          <p>Tests are for drinking water. These tests (except for Electrical Conductivity) are colorimetric tests that use a smaprtphone camera and flash to detect the contaminant. The electrical conductivity test works by attaching a probe to the USB port of a smartphone.</p>
-          <ul>
-            <li>Fluoride</li>
-            <li>Residual Chlorine</li>
-            <li>pH</li>
-            <li>Nitrate</li>
-            <li>Phosphate</li>
-            <li>Chromium</li>
-            <li>Arsenic (Product development and validation underway)</li>
-            <li>Coliforms / Fecal Coliforms (Product development underway)</li>
-            <li>Electrical Conductivity (Preproduction)</li>
-          </ul>
-          <h2>Soil tests</h2>
-          <p>Soil NPK and pH are strip tests / colorimetric test. Soil EC and Soil Moisture work by attaching probes to the USB port of a smartphone.</p>
-          <ul>
-            <li>Soil NPK - Nitrogen, Phosphorous, and Potassium (Beta)</li>
-            <li>Soil pH (Beta)</li>
-            <li>Soil EC (Preproduction)</li>
-            <li>Soil Moisture (Preproduction)</li>
-          </ul>
+        <div id="content">
+            <div id="hero">
+                <img src="images/caddisfly_main.jpg" alt="Caddisfly - A field test kit for drinking water and soil based on a smartphone">
+            </div>
+            <div id="about">
+                <h1><a name="about">About</a></h1>
+                <p><a href="http://ffem.io">Foundation for Environmental Monitoring (FFEM)</a>, is a nonprofit (Section 8) company based in Bangalore, India.</p>
+                <p>We create products that are <strong>Open Source</strong>, <strong>Inexpensive</strong>, and <strong>Designed for field use</strong>. Our products are usually integrated with apps that post test results to online databases. We encourage
+                    results being posted as <strong>Open Data</strong>.</p>
+                <p>Elements of our work begain 2012 as <a href="http://caddisfly.ternup.com">Ternup Research Labs</a>. In 2014, our team merged with <a href="http://akvo.org">Akvo</a>. FFEM was set up as a spinoff in June 2017. This <a href="http://akvo.org/blog/akvo-spins-off-environmental-sensor-organisation-ffem/">post</a>                    explains the context and future directions.</p>
+            </div>
+            <div id="water_and_soil_test_kits">
+                <h1><a name="water_and_soil_test_kits">FFEM Caddisfly: Water and Soil Test Kits</a></h1>
+                <h2>Water tests</h2>
+                <p>Tests are for drinking water. These tests (except for Electrical Conductivity) are colorimetric tests that use a smaprtphone camera and flash to detect the contaminant. The electrical conductivity test works by attaching a probe to the
+                    USB port of a smartphone.</p>
+                <ul>
+                    <li>Fluoride</li>
+                    <li>Residual Chlorine</li>
+                    <li>pH</li>
+                    <li>Nitrate</li>
+                    <li>Phosphate</li>
+                    <li>Chromium</li>
+                    <li>Arsenic (Product development and validation underway)</li>
+                    <li>Coliforms / Fecal Coliforms (Product development underway)</li>
+                    <li>Electrical Conductivity (Preproduction)</li>
+                </ul>
+                <h2>Soil tests</h2>
+                <p>Soil NPK and pH are strip tests / colorimetric test. Soil EC and Soil Moisture work by attaching probes to the USB port of a smartphone.</p>
+                <ul>
+                    <li>Soil NPK - Nitrogen, Phosphorous, and Potassium (Beta)</li>
+                    <li>Soil pH (Beta)</li>
+                    <li>Soil EC (Preproduction)</li>
+                    <li>Soil Moisture (Preproduction)</li>
+                </ul>
+            </div>
+            <div id="team">
+                <h1><a name="team">Team</a></h1>
+                <div class="profile">
+                    <p class="profile_name">Ishan Gupta</p>
+                    <p class="profile_body">Ishan is a product designer on the Caddisfly team. Prior to Caddisfly he has worked on projects ranging from an Android application for crowd-sourced data-gathering relating to civic infrastructure issues, to designing watchfaces for
+                        Titan.
+                    </p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Nischal Halery</p>
+                    <p class="profile_body">Nischal is a software developer who developed the smartphone app, web sites and maps for the Akvo Caddisfly water testing kit. His experience spans e-commerce, finance, customer management, i18n, web sites and phone apps.</p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Pradeep Balkunde</p>
+                    <p class="profile_body">Pradeep is a chemist on the Caddisfly team. He joined Akvo through his work at TernUp Research labs. Prior to this, he was involved in projects included the development of filters for the removal of fluoride, arsenic and microbial
+                        contamination from drinking water. Pradeep is an inventor who has filed two patents and authored two research papers.</p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Rajshree Patil</p>
+                    <p class="profile_body">Rajshree is a microbiologist on the Caddisfly team. She is currently working on developing a rapid coliform detection kit using a smart-phone application. Prior to Caddisfly, she was involved in the development of different low cost
+                        water purification solutions for household purposes for removing microbial contaminants from drinking water. She has filed six patents and published eight papers in the field of Microbiology.</p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Samuel Rajkumar</p>
+                    <p class="profile_body">Samuel Rajkumar is a product development manager. In this role, he oversees the development of the Caddisfly water testing kit. Sam co founded Ternup in 2012, where Caddisfly was created as part of an open source project to develop
+                        a low cost water testing kit.</p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Saurabh Levin</p>
+                    <p class="profile_body">Saurabh is a product designer on the Caddisfly team. He was involved in developing the Caddisfly water testing kit since its inception in late 2011; his college diploma project was an early prototype of Caddisfly.</p>
+                </div>
+                <div class="profile">
+                    <p class="profile_name">Sushant Bamane</p>
+                    <p class="profile_body">Sushant works closely with the Caddisfly product development team as a chemist. He is responsible for identifying and validating water and soil tests, as well as coordinating with prototyping and manufacturing partners. His previous
+                        work includes managing research activities for the development of water purification devices such as fluoride, arsenic and microbial removal from water.</p>
+                </div>
+            </div>
+            <div id="partners">
+                <h1><a name="partners">Partners</a></h1>
+                <p>
+                    <a href="http://akvo.org"><img src="images/Akvo_RGB_logo.png"></a>
+                </p>
+                <p style="padding-left:20px"><br><br><strong>Empowered by</strong></p>
+                <p>
+                    <a href="http://socialalpha.in"><img src="images/social_alpha.png" alt="Social Alpha"></a>
+                </p>
+            </div>
+            <div id="contact">
+                <h1>Contact</h1>
+                <p>Foundation for Environmental Monitoring (ffem)<br>#67 (old 125), 2nd Floor, Infantry Road, Bangalore 560001, India<br>
+                    <p>Email: <a href="mailto:info@ffem.io">info@ffem.io</a></p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8723549575907!2d77.60299105006213!3d12.98001501816144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1662d93860c7%3A0xb55251c6afb2fc4a!2sFoundation+for+Environmental+Monitoring!5e0!3m2!1sen!2sin!4v1504677784108"
+                        width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
-        <div id="team">
-          <h1><a name="team">Team</a></h1>
-          <div class="profile">
-            <p class="profile_name">Ishan Gupta</p>
-            <p class="profile_body">Ishan is a product designer on the Caddisfly team. Prior to Caddisfly he has worked on projects ranging from an Android application for crowd-sourced data-gathering relating to civic infrastructure issues, to designing watchfaces for Titan.</p>
-          </div>
-          <div class="profile">
-            <p class="profile_name">Nischal Halery</p>
-            <p class="profile_body">Nischal is a software developer who developed the smartphone app, web sites and maps for the Akvo Caddisfly water testing kit. His experience spans e-commerce, finance, customer management, i18n, web sites and phone apps.</p>
-          </div>
-          <div class="profile">
-            <p class="profile_name">Pradeep Balkunde</p>
-            <p class="profile_body">Pradeep is a chemist on the Caddisfly team. He joined Akvo through his work at TernUp Research labs. Prior to this, he was involved in projects included the development of filters for the removal of fluoride, arsenic and microbial contamination from drinking water. Pradeep is an inventor who has filed two patents and authored two research papers.</p>
-          </div>
-          <div class="profile">
-            <p class="profile_name">Rajshree Patil</p>
-            <p class="profile_body">Rajshree is a microbiologist on the Caddisfly team. She is currently working on developing a rapid coliform detection kit using a smart-phone application. Prior to Caddisfly, she was involved in the development of different low cost water purification solutions for household purposes for removing microbial contaminants from drinking water. She has filed six patents and published eight papers in the field of Microbiology.</p>
-          </div><div class="profile">
-            <p class="profile_name">Samuel Rajkumar</p>
-            <p class="profile_body">Samuel Rajkumar is a product development manager. In this role, he oversees the development of the Caddisfly water testing kit. Sam co founded Ternup in 2012, where Caddisfly was created as part of an open source project to develop a low cost water testing kit.</p>
-          </div><div class="profile">
-            <p class="profile_name">Saurabh Levin</p>
-            <p class="profile_body">Saurabh is a product designer on the Caddisfly team. He was involved in developing the Caddisfly water testing kit since its inception in late 2011; his college diploma project was an early prototype of Caddisfly.</p>
-          </div><div class="profile">
-            <p class="profile_name">Sushant Bamane</p>
-            <p class="profile_body">Sushant works closely with the Caddisfly product development team as a chemist. He is responsible for identifying and validating water and soil tests, as well as coordinating with prototyping and manufacturing partners. His previous work includes managing research activities for the development of water purification devices such as fluoride, arsenic and microbial removal from water.</p>
-          </div>
+        <div id="footer">
+            <p><a href="privacy.html">Privacy Policy</a></p>
+            <p>Published under a <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL 3.0 licence</a>. <a href="https://github.com/foundation-for-enviromental-monitoring/website">Source</a>.</p>
         </div>
-        <div id="partners">
-            <h1><a name="partners">Partners</a></h1>
-            <p><a href="http://akvo.org"><img src="images/Akvo_RGB_logo.png"></a></p>
-            <p style="padding-left:20px"><br><br><strong>Empowered by</strong></p>
-            <p><a href="http://socialalpha.in"><img src="images/social_alpha.png" alt="Social Alpha"></a></p>
-        </div>
-        <div id="contact">
-          <h1>Contact</h1>
-          <p>Email: <a href="mailto:info@ffem.io">info@ffem.io</a></p>
-          <p>125, 2nd Floor, Infantry Road, Bangalore 560001</p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.8723549575907!2d77.60299105006213!3d12.98001501816144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1662d93860c7%3A0xb55251c6afb2fc4a!2sFoundation+for+Environmental+Monitoring!5e0!3m2!1sen!2sin!4v1504677784108" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <div id="footer">
-        <p>Published under a <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GPL 3.0 licence</a>. <a href="https://github.com/foundation-for-enviromental-monitoring/website">Source</a>.</p>
-      </div>
     </div>
-  </body>
+</body>
+
 </html>
