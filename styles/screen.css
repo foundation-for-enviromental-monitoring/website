@@ -1,0 +1,153 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  margin-left: 20%;
+  min-width: 600px;
+}
+
+article h2 {
+  padding: 20px;
+  padding-top: 0;
+  margin-top: 37px;
+  font-size: 3em;
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+article h3 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: normal;
+  clear: both;
+}
+
+article h4 {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+article p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+	clear: both;
+	padding: 1em 0 1em 0;
+	font-size: 0.7em;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+  margin-left: 20%;
+}
+
+footer p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #999;
+	text-decoration: underline;
+}
+
+a.active:link, a.active:visited, a.active:hover, a.active:active {
+	color: #df8100;
+	text-decoration: none;
+}
+
+header a:link, header a:visited, header a:hover, header a:active {
+  color: #444;
+	text-decoration: none;
+}
+
+article table td {
+	padding: 0.5em;
+	margin: 0;
+	border: 1px solid #444;
+}
+
+
+article table th {
+	padding: 0.5em;
+	margin: 0;
+	border: 1px solid #444;
+	font-weight: bold;
+}
+
+#container {
+	width: 100%;
+	min-width: 800px;
+}
+
+header {
+	overflow: hidden;
+  margin: 10px 10px;
+}
+
+header h1, article h1 {
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+nav a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #df8100;
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  margin-left: 1em;
+  padding: 0;
+}
+
+nav #menuIcon {
+  display: none;
+}
+
+#headerNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto !important;
+  overflow: auto;
+  min-height: 500px;
+	width: 20%;
+  min-width: 200px;
+  background-color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.teamImage {
+  clear: both;
+  float: left;
+  width: 300px;
+  margin: 10px;
+}

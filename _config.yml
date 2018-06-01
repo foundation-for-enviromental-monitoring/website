@@ -1,0 +1,4 @@
+name: Foundation for Environmental Monitoring
+
+include: ['_pages']
+relative_permalinks: false

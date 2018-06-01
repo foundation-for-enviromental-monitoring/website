@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ page.title }} | {{ site.name }}</title>
+      <link rel="stylesheet" href="{{ site.url }}/styles/screen.css" media="screen and (min-width: 1000px)">
+      <link rel="stylesheet" href="{{ site.url }}/styles/handheld.css" media="screen and (min-width: 400px) and (max-width: 1000px)">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script type="text/javascript">
+        var u = "{{ site.url }}{{ page.url }}";
+        $(document).ready(function(){
+          $("nav a").each(function(index){
+            if($(this).attr("href") == u){
+              $(this).addClass("active");
+            }
+          });
+        });
+      </script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="headerNav">
+        <header>
+            <div id="siteLogo">
+                <a href="{{ site.url }}"><img src="{{ site.url }}/images/logo.png" alt="FFEM Logo"></a>
+            </div>
+        </header>
+        <nav id="primary_nav_wrap">
+          <a href="#" id="menuIcon"></a>
+          <div id="navContainer">
+            <ul>
+                <li><a href="{{ site.url }}/about/">About</a>
+                    <ul>
+                        <li><a href="{{ site.url }}/team/">Team</a></li>
+                        <li><a href="{{ site.url }}/partners/">Partners</a></li>
+                        <li><a href="{{ site.url }}/work/">Work with us</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ site.url  }}/products/">Products</a>
+                    <ul>
+                        <li><a href="{{ site.url }}/water/">Water</a></li>
+                        <li><a href="{{ site.url }}/soil/">Soil</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ site.url }}/services/">Services</a></li>
+                <li><a href="{{ site.url }}/research/">Research</li>
+                <li><a href="{{ site.url }}/blog/">Blog</a></li>
+                <li><a href="{{ site.url }}/contact/">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <article>
+          <h2>{{ page.title }}</h2>
+          {{ content }}
+      </article>
+      <footer>
+          <div id="terms">
+            <a href="{{ site.url }}/privacy/">Privacy Policy</a>
+          </div>
+          <div id="contact">
+              <p>Foundation for Environmental Monitoring (ffem)<br>#67 (old 125), 2nd Floor, Infantry Road, Bangalore 560001, India<br><a href="mailto:info@ffem.io">info@ffem.io</a> +91 80 4814 4892 <a href="http://ffem.io">ffem.io</a></p>
+          </div>
+          <div id="license">
+              <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>

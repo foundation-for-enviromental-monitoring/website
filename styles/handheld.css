@@ -1,0 +1,97 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: underline;
+  color: #000;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px;
+}
+
+header img {
+  max-width: 100%;
+  margin: 10px;
+}
+
+
+header a:link, header a:visited, header a:hover, header a:active {
+  text-decoration: none;
+  color: #444;
+}
+
+article h1 {
+  font-weight: normal;
+  font-size: 1.2em;
+  text-transform: lowercase;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1em;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  text-decoration: none;
+  color: #df8100;
+}
+
+article {
+  clear: both;
+  padding: 10px;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article h2 {
+  font-weight: normal;
+  text-transform: lowercase;
+}
+
+article h3 {
+  font-weight: normal;
+}
+
+#menuIcon {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+  background-image: url(../images/Very-Basic-Menu-icon.png);
+}
+
+a:hover#menuIcon {
+}
+
+nav #navContainer { 
+  display: none;
+  position: absolute;
+  padding: 20px;
+  background: #fff;
+  left: 50px;
+  top: 100px;
+}
+
+nav:hover #navContainer {
+  display: block;
+}
+
+footer {
+  font-size: 0.8em;
+  border-top: 1px solid #cd6a00;
+  padding: 10px;
+}
+
+img.teamImage {
+  max-width: 300px;
+  float: left;
+  margin: 10px;
+}
