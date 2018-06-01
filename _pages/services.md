@@ -8,7 +8,7 @@ layout: default
 #### Testing at our Bangalore Faciility
 ffem will test [water]({{ site.url }}/water/) and [soil]({{ site.url }}/soil/) samples at our Bangalore facility. All tests are performed using ffem's test kit, which helps speed up the process and bring down the time. Samples need to be delivered to [ffem]({{ site.url }}/contact).
 
-A water potability test will be charged at INR 500 (plus taxes) per sample. Parameters tested are pH, Fluoride, Nitrate, Arsenic III, Copper, Aluminum, Total Iron, Chlorides, Sulphate and Coliforms. Time required for a test is 2 warking days. Sample quantity is 500ml.
+A water potability test will be charged at INR 500 (plus taxes) per sample. Parameters tested are pH, Fluoride, Nitrate, Arsenic III, Copper, Aluminum, Total Iron, Chlorides, Sulphate and Coliforms. Time required for a test is 2 working days. Sample quantity is 500ml.
 
 A test for soil NPK (Nitrogen, Phosphorous and Potassium) and pH will be charged at INR 200 (plus taxes). 500g of soil will be required for a test. Time required for results is 2 working days.
 
