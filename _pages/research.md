@@ -4,6 +4,8 @@ title: Current Research at ffem
 layout: default
 ---
 
+![E Coli]({{ site.url }}/assets/images/e_coli.png)
+
 ### Inorganic water parameters
 ffem has developed a test for Arsenic III, the more toxic form of Arsenic. Current research is focused on a simple test to develop a test for Total Arsenic.
 
