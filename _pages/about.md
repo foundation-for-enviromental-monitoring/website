@@ -23,4 +23,4 @@ ffem is comprised of a [team]({{ site.url }}/team) of researchers, product devel
 An early version of the product later called Caddisfly was demonstrated at a Water Hackathon in 2011. In 2012, [Ternup Research Labs, LLP](http://ternup.com), was started with the goal of developing and commercializing this product as a low cost, open source, and easy to use water quality monitoring kit. In 2014, the team merged with [Akvo](http://akvo.org), a Netherlands based non profit. In 2017, ffem was [spun off as an independent entity](https://akvo.org/blog/akvo-spins-off-environmental-sensor-organisation-ffem/). The product continues to be open source, though there are different roadmaps with both organizations. The name Caddisfly has been licensed to ffem, while the product is jointly maintained.
 
 ### Intellectual Property Policy
-Any project or product initiated or owned by ffem is open source. However while collaborating, partners' intellectual porperty will be respected.
+Any project or product initiated or owned by ffem is open source. However while collaborating, partners' intellectual property will be respected.
