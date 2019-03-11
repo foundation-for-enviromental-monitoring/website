@@ -1,6 +1,6 @@
 ---
 permalink: /start/
-title: Getting started with an ffem testing
+title: Getting started with an ffem testing kit
 layout: default
 ---
 
