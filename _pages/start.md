@@ -9,11 +9,13 @@ Thank you for purchasing a kit from ffem! To begin testing, click a relevant lin
 These are the necessary first steps before your kit can be used for testing:
 
 * [Preparing your phone](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Phone-Preparation)
+* Install [ffem collect from Google Play](https://play.google.com/store/apps/details?id=io.ffem.collect)
 * [Setting up ffem collect](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Surveying---using-the-dashboard)
 
 For parametric specific instructions, click the relevant link below
 
 ## Water
+* Install [ffem Water from Google Play](https://play.google.com/store/apps/details?id=io.ffem.water)
 * [Calibration](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Calibration)
 
 For instructions on how to test a specific paramter, click the relevant link below
@@ -29,6 +31,7 @@ For instructions on how to test a specific paramter, click the relevant link bel
 * [Total Iron](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Iron)
 
 ## Soil
+* Install [ffem soil from Google Play](https://play.google.com/store/apps/details?id=io.ffem.soil)
 * [Calibration](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Calibration)
 * [Preparing a soil sample](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Extraction)
 
