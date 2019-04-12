@@ -15,12 +15,6 @@ layout: default
 
 Before joining Akvo Foundation, he was involved in the development of household water filters for removing chemical and microbial contamination from drinking water. He has filed 3 patents and published four research papers in the field of water treatment and water quality analysis.
 
-### Rajshree Patil
-<img src="{{ site.url }}/assets/images/rajshree_patil.jpg" alt="Rajshree Patil" class="teamImage">
-Rajshree is a senior research scientist in the Foundation for Environmental Monitoring (FFEM). She is PhD in Microbiology from the University of Mumbai and has 10 years of professional experience in the field. Currently, she is mainly involved in leading projects on developing platform for rapid detection of bacterial pathogens using different software applications. Prior to joining FFEM, she was working with Akvo Foundation, the Netherlands, as a senior researcher on a project on developing coliform detection device using smartphone application. The work done on this project has been selected in top 50 entries at IIGP, Innovation growth program 2017.  
-
-The major part of her career is associated with TCS-Innovation lab-TRDDC, Pune where for almost 7 years she has actively involved in water purification R&D at TCS-innovation lab-TRDDC. There, she was  a part of  research team involved in the development of the Tata Swach Nanotech water purifier and different low cost water purification solutions for household purposes for removing microbial contaminants from drinking water. She has filed six patents and published 8 papers in the field of Microbiology.
-
 ### Samuel Rajkumar
 <img src="{{ site.url }}/assets/images/samuel_rajkumar.jpg" alt="Samuel Rajkumar" class="teamImage"> Sam worked as a software developer for 18 years before cofounding Ternup Research Labs in 2012. It was here that the product that was later known as Caddisfly was first developed. Since 2012, he has worked with this product in several capacities. In 2014, he joined Akvo along with the rest of the Caddisfly team. From 2017 to the present his primary role is the business devleopment for ffem. His interests include reading hard science fiction, making indifferent music and amateur woodworking.
 
