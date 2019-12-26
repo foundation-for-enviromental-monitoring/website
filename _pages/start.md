@@ -29,6 +29,9 @@ For instructions on how to test a specific paramter, click the relevant link bel
 * [Sulphate](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Sulphate)
 * [Dissolved Oxygen](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Dissolved-Oxygen)
 * [Total Iron](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Iron)
+* [Aluminum](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Aluminium)
+* [Total Arsenic](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Total-Arsenic)
+* [Copper](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Copper)
 
 ## Soil
 * Install [ffem soil from Google Play](https://play.google.com/store/apps/details?id=io.ffem.soil)
@@ -41,3 +44,11 @@ For instructions on how to test a specific parameter, click the relevant link be
 * [Nitrogen](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Nitrogen)
 * [Phosphorous](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Phosphorous)
 * [Potassium](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Potassium)
+
+* [Organic Carbon](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Organic-Carbon)
+* [Boron](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Boron-(Soil))
+* [Available Iron](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Available-Iron)
+* [Available Sulphur](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Available-Sulphur)
+* [Available Zinc](https://github.com/foundation-for-environmental-monitoring/Documentation/wiki/Available-Zinc)
+
+
