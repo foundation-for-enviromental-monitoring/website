@@ -4,9 +4,6 @@ title: Team
 layout: default
 ---
 
-### Ishan Gupta
-<img src="{{ site.url }}/assets/images/ishan_gupta.jpg" alt="Ishan Gupta" class="teamImage"> Ishan is a product designer who has worked with the Caddisfly team since 2015. He studied product design at Loughborough University, has designed watches for Titan Fastrack and helped develop tools for crowdsourced data-aggregation. He helps prototype and manufacture new concepts and products for the ffem product range.
-
 ### Nischal
 <img src="{{ site.url }}/assets/images/nh.jpg" class="teamImage"> Nischal is a software developer. His experience spans e-commerce, finance, customer management, i18n, web sites and phone apps. He has a Bachelor of Commerce degree and a Graduate Diploma in Commercial Computing. Nischal developed software and lead development teams in various organisations and has about 20 years of experience in the field. He has been involved in developing the Caddisfly water testing kit since its inception in late 2011. His interests include music, programming and reading.
 
