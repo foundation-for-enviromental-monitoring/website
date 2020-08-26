@@ -26,32 +26,39 @@ Boron (B), Chlorine (Cl)
 
 All prices in INR
 
-Base Kit
+**Base Kit**
+
 One test chamber, one centrifuge, one pocket weighing scale, six 15 ml test tubes, two 50 ml test tubes, funnel, filter paper, syringe and calibrated Android reader - 1 Nos - 11,000
 
-Available Nitrogen
+**Available Nitrogen**
+
 Reagent for 50 tests - INR 1,000
 
-Available Potassium
+**Available Potassium**
+
 Reagent for 50 tests - INR 1,000
 
-Available Phosphorus
+**Available Phosphorus**
+
 Reagent for 50 tests - INR 1,000
 
-Soil pH
+**Soil pH**
+
 Reagent for 50 tests - INR 750
 
-Organic Carbon
+**Organic Carbon**
+
 Reagent for 50 tests - INR 1,250
 
-Extraction solution
+**Extraction solution**
+
 Stock extraction solution for 50 tests - INR 500
 
 GST @ 18% - INR 2,970
 
-Total: INR 19,470
+**Total:** INR 19,470
 
-Note: GST does not apply for orders billed as export orders. Shipping costs (+GST) will be extra as applicable
+**Note:** GST does not apply for orders billed as export orders. Shipping costs (+GST) will be extra as applicable
 
 
 
