@@ -22,24 +22,36 @@ Soil tests often check for plant nutrients in three categories:
 * **Minor nutrients:** Iron (Fe), Manganese (Mn), Copper (Cu), Zinc (Zn), Molybdenum (Mo),
 Boron (B), Chlorine (Cl)
 
-Currently the following tests can be performed with a ffem soil test kit
+## Pricing
 
-<a name="ph"></a>
-### pH
-_Range:_ - 4-10<br>
-_Cost Per test:_ Rs. 10
+All prices in INR
 
-<a name="nitrogen"></a>
-### Available Nitrogen
-_Range:_ 0 mg/kg – 40 mg/kg (Can be extended to 400 mg/kg by dilution)<br>
-_Cost Per test:_ Rs. 25
+Base Kit
+One test chamber, one centrifuge, one pocket weighing scale, six 15 ml test tubes, two 50 ml test tubes, funnel, filter paper, syringe and calibrated Android reader - 1 Nos - 11,000
 
-<a name="phosphorous"></a>
-### Available Phosphorous
-_Range:_ 0 mg/kg – 25 mg/kg (Can be extended to 250 mg/kg by dilution)<br>
-_Cost Per test:_ Rs. 25
+Available Nitrogen
+Reagent for 50 tests - INR 1,000
 
-<a name="potassium"></a>
-### Available Potassium
-_Range:_  0 mg/kg – 40 mg/kg (Can be extended to 400 mg/kg by dilution)<br>
-_Cost per test:_  Rs. 25
+Available Potassium
+Reagent for 50 tests - INR 1,000
+
+Available Phosphorus
+Reagent for 50 tests - INR 1,000
+
+Soil pH
+Reagent for 50 tests - INR 750
+
+Organic Carbon
+Reagent for 50 tests - INR 1,250
+
+Extraction solution
+Stock extraction solution for 50 tests - INR 500
+
+GST @ 18% - INR 2,970
+
+Total: INR 19,470
+
+Note: GST does not apply for orders billed as export orders. Shipping costs (+GST) will be extra as applicable
+
+
+
